@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="630" viewBox="0 0 1200 630">
+<rect width="1200" height="630" fill="#FCFBF7"/>
+<ellipse cx="944" cy="325" rx="200" ry="237" fill="#D9EFEC"/>
+<g fill="#112B3A"><path d="m62 67 34-16-12 34-7-14-15-4Z"/><text x="108" y="78" font-family="DejaVu Sans,sans-serif" font-size="27" font-weight="bold">PapierPilot</text></g>
+<g font-family="DejaVu Sans,sans-serif" font-weight="bold" font-size="56" letter-spacing="-2"><text x="62" y="220" fill="#112B3A">Verstehe deine Post.</text><text x="62" y="300" fill="#147988">Plane deinen</text><text x="62" y="370" fill="#147988">nächsten Schritt.</text></g>
+<text x="64" y="441" fill="#53666E" font-family="DejaVu Sans,sans-serif" font-size="20">Dokumente verstehen. Aufgaben organisieren.</text>
+<rect x="62" y="488" width="369" height="53" rx="26.5" fill="#112B3A"/><text x="86" y="521" fill="#FCFBF7" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="bold">2 Dateien kostenlos analysieren</text>
+<rect x="811" y="48" width="247" height="519" rx="36" fill="#253740"/>
+<clipPath id="screen"><rect x="818" y="55" width="233" height="505" rx="29"/></clipPath>
+<image x="818" y="55" width="233" height="505" clip-path="url(#screen)" xlink:href="home-dark.webp"/>
+<text x="64" y="586" fill="#53666E" font-family="DejaVu Sans,sans-serif" font-size="15">papierpilot.app · Für iPhone &amp; iPad</text>
+</svg>

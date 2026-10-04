@@ -1,169 +1,71 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Funktionen – PapierPilot</title>
-<meta name="description" content="Dokumente hochladen oder scannen, KI-Analyse, einfache Erklärungen, Fristen erkennen, To-dos und Mehrsprachigkeit – die Funktionen von PapierPilot im Überblick." />
-<link rel="canonical" href="https://papierpilot.app/funktionen" />
-
-<meta property="og:type" content="website" />
-<meta property="og:title" content="Funktionen – PapierPilot" />
-<meta property="og:description" content="Dokumente hochladen oder scannen, KI-Analyse, einfache Erklärungen, Fristen erkennen, To-dos und Mehrsprachigkeit – die Funktionen von PapierPilot im Überblick." />
-<meta property="og:url" content="https://papierpilot.app/funktionen" />
-<meta property="og:locale" content="de_DE" />
-
-<link rel="icon" href="/favicon.ico" sizes="any" />
-<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-
-<link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Alle Funktionen – PapierPilot</title>
+<meta name="description" content="Dokumente verstehen, Vorgänge organisieren, mögliche Fristen erkennen und Termine in den iPhone-Kalender übernehmen. Entdecke PapierPilot."/>
+<meta name="theme-color" content="#FCFBF7"/>
+<link rel="canonical" href="https://papierpilot.app/funktionen"/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Alle Funktionen – PapierPilot"/>
+<meta property="og:description" content="Dokumente verstehen, Vorgänge organisieren, mögliche Fristen erkennen und Termine in den iPhone-Kalender übernehmen. Entdecke PapierPilot."/>
+<meta property="og:url" content="https://papierpilot.app/funktionen"/>
+<meta property="og:locale" content="de_DE"/>
+<meta property="og:image" content="https://papierpilot.app/og-image.png"/>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"/>
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"/>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="landing.css"/>
+<script src="script.js" defer></script>
 </head>
 <body>
-
 <a class="skip-link" href="#hauptinhalt">Zum Inhalt springen</a>
-
 <header class="site-header">
   <div class="header-inner">
-    <a class="logo" href="/">
-      <svg class="logo-mark" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-        <rect width="48" height="48" rx="14" fill="#0E8F8B"/>
-        <path d="M12 25L36 13L27 36L22 26L12 25Z" fill="#ffffff"/>
-      </svg>
+    <a class="logo" href="/" aria-label="PapierPilot – Startseite">
+      <svg class="logo-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M7 23.5 40 8 28 41l-7-13-14-4.5Z" fill="currentColor"/><path d="m21 28 19-20" stroke="#FCFBF7" stroke-width="2" stroke-linecap="round"/></svg>
       PapierPilot
     </a>
-    <button class="nav-toggle" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Menü öffnen">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 8h16M4 16h16"/></svg>
     </button>
     <nav class="main-nav" id="main-nav" aria-label="Hauptnavigation">
-      <a href="/">Start</a>
-      <a href="/funktionen" aria-current="page">Funktionen</a>
-      <a href="/datenschutz">Datenschutz</a>
-      <a href="/support">Support</a>
-      <a href="/impressum">Impressum</a>
+      <a href="/#funktionen">Funktionen</a>
+      <a href="/#alltag">Für deinen Alltag</a>
+      <a href="/#preise">Preise</a>
+      <a href="/ueber-uns.html">Über uns</a>
+      <a class="nav-download" href="https://apps.apple.com/de/app/papierpilot/id6788533712" target="_blank" rel="noopener noreferrer">App herunterladen <span aria-hidden="true">↗</span></a>
     </nav>
   </div>
 </header>
-
 <main id="hauptinhalt">
-
-  <section class="page-hero">
-    <div class="container">
-      <span class="eyebrow">Funktionen</span>
-      <h1>Funktionen</h1>
-      <p>PapierPilot unterstützt dich beim Verstehen, Organisieren und Bearbeiten von Dokumenten.</p>
-    </div>
-  </section>
-
-  <section class="section">
-    <div class="container">
-      <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="7" width="16" height="13" rx="2"/><path d="M9 7V5a2 2 0 012-2h2a2 2 0 012 2v2"/><circle cx="12" cy="13" r="2.5"/></svg>
-          </div>
-          <h3>Dokument hochladen oder scannen</h3>
-          <p>Du kannst Dokumente fotografieren, aus der Galerie auswählen oder als Datei hochladen.</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z"/></svg>
-          </div>
-          <h3>KI-Analyse</h3>
-          <p>PapierPilot analysiert den Inhalt und erstellt eine verständliche Zusammenfassung.</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 00-2 2v14a2 2 0 002 2h10a2 2 0 002-2V9l-5-6z"/><path d="M14 3v6h5"/><line x1="9" y1="13" x2="15" y2="13"/><line x1="9" y1="17" x2="13" y2="17"/></svg>
-          </div>
-          <h3>Einfache Erklärung</h3>
-          <p>Komplizierte Inhalte werden in einfacherer Sprache erklärt.</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><line x1="3" y1="10" x2="21" y2="10"/><line x1="8" y1="3" x2="8" y2="7"/><line x1="16" y1="3" x2="16" y2="7"/><circle cx="8" cy="15" r="1.3" fill="currentColor" stroke="none"/></svg>
-          </div>
-          <h3>Fristen und Termine</h3>
-          <p>Die App sucht nach möglichen Fristen, Terminen und wichtigen Datumsangaben.</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12l5 5L20 7"/></svg>
-          </div>
-          <h3>To-dos</h3>
-          <p>Aus dem Dokument entstehen Aufgaben und Unteraufgaben.</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 7l9-4 9 4-9 4-9-4z"/><path d="M3 7v10l9 4 9-4V7"/><path d="M12 11v10"/></svg>
-          </div>
-          <h3>Ablage</h3>
-          <p>Analysierte Dokumente können gespeichert und später wiedergefunden werden.</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 01-8.9 8.4 8.6 8.6 0 01-3.8-.9L3 20l1-5.3A8.4 8.4 0 0112.6 3a8.4 8.4 0 018.4 8.5z"/></svg>
-          </div>
-          <h3>KI-Assistent</h3>
-          <p>Du kannst Fragen zum Dokument stellen und dir Begriffe erklären lassen.</p>
-        </article>
-
-        <article class="feature-card">
-          <div class="feature-icon">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3a13 13 0 010 18"/><path d="M12 3a13 13 0 000 18"/></svg>
-          </div>
-          <h3>Mehrsprachigkeit</h3>
-          <p>Du kannst aus 27 Sprachen frei wählen, darunter Arabisch und Chinesisch.</p>
-        </article>
-
-      </div>
-    </div>
-  </section>
-
-  <section class="section-tight">
-    <div class="container">
-      <div class="info-card">
-        <p style="margin:0; color:var(--text-soft);">
-          Hinweis: Die Genauigkeit hängt von der Lesbarkeit und Qualität des Dokuments ab.
-        </p>
-      </div>
-    </div>
-  </section>
-
+<section class="container editorial-hero"><p class="overline">Die App im Überblick</p><h1>Von deinem Dokument<br/>zu deinem nächsten Schritt.</h1><p>PapierPilot hilft dir, Schreiben zu verstehen und deine Verwaltungsangelegenheiten zu organisieren. Zwei Dateien kannst du kostenlos analysieren und dabei alle Funktionen ausprobieren.</p><a class="text-link" href="/#so-funktionierts">Die App am Beispiel ansehen ↗</a></section>
+<section class="editorial-section"><div class="container feature-detail-grid">
+<article class="feature-card"><span class="feature-number">01 / Einlesen</span><h2>PDF, Foto oder Text</h2><p>Lade eine Datei hoch, fotografiere ein Dokument oder wähle ein Bild aus der Galerie. Auch eingegebener Text lässt sich analysieren. Achte auf gut lesbare und vollständige Unterlagen.</p></article>
+<article class="feature-card"><span class="feature-number">02 / Verstehen</span><h2>Zusammenfassung und einfache Erklärung</h2><p>Die KI fasst Inhalte zusammen und erklärt Begriffe in verständlicher Sprache. So kannst du besser einordnen, worum es in einem Schreiben geht.</p></article>
+<article class="feature-card"><span class="feature-number">03 / Weiterkommen</span><h2>Schritt-für-Schritt-Anleitungen</h2><p>Die Analyse zeigt mögliche nächste Schritte, Aufgaben und benötigte Nachweise. Prüfe die Vorschläge anhand deines Originaldokuments.</p></article>
+<article class="feature-card"><span class="feature-number">04 / Verbinden</span><h2>Mehrere Dokumente, ein Vorgang</h2><p>Analysiere mehrere Dokumente gemeinsam und organisiere sie als zusammenhängenden Vorgang. Dokumente, Aufgaben und nächste Schritte bleiben so beieinander.</p></article>
+<article class="feature-card"><span class="feature-number">05 / Organisieren</span><h2>Lebensereignisse</h2><p>Wähle beispielsweise Umzug, neuen Job, Arbeitslosigkeit, Studium oder Geburt. PapierPilot ergänzt passende Aufgaben und Behörden für deinen Vorgang.</p></article>
+<article class="feature-card"><span class="feature-number">06 / Planen</span><h2>Termine, Aufgaben und mögliche Fristen</h2><p>Sieh Termine und fällige Aufgaben in Monats-, Wochen- und Tagesansichten. Ergänze Termine selbst oder übernimm erkannte Angaben nach Prüfung.</p></article>
+<article class="feature-card"><span class="feature-number">07 / Übernehmen</span><h2>Export in den iPhone-Kalender</h2><p>Aufgaben und Fristen aus analysierten Dokumenten lassen sich mit vorausgefüllten Angaben in den iPhone-Kalender exportieren.</p></article>
+<article class="feature-card"><span class="feature-number">08 / Wiederfinden</span><h2>Ablage mit Kategorien und Suche</h2><p>Bewahre analysierte Dokumente in der Ablage auf. Kategorien wie Wohnen, Arbeit, Finanzen oder Familie und die Suche helfen dir beim Wiederfinden.</p></article>
+<article class="feature-card"><span class="feature-number">09 / Nachfragen</span><h2>KI-Assistent und Antwortentwürfe</h2><p>Stelle Fragen zu deinen Dokumenten, kommenden Terminen und möglichen Fristen. Die App kann außerdem einen passenden Antwortentwurf zum Dokument erstellen, den du selbst prüfst.</p></article>
+<article class="feature-card"><span class="feature-number">10 / Orientieren</span><h2>Behördenübersicht</h2><p>Finde Anlaufstellen zu Themen wie Arbeit, Bildung oder Aufenthalt. Die Übersicht hilft dir, Zuständigkeiten und benötigte Unterlagen einzuordnen.</p></article>
+<article class="feature-card"><span class="feature-number">11 / Sprache</span><h2>Mehrsprachige Erklärungen</h2><p>Die Dokumentanalyse unterstützt Erklärungen in mehreren Sprachen. Die verfügbaren Optionen findest du in der App; sie sind von der Sprache der Bedienoberfläche zu unterscheiden.</p></article>
+<article class="feature-card"><span class="feature-number">12 / Ausprobieren</span><h2>Gastzugang, Light und Dark Mode</h2><p>Starte auch ohne Registrierung als Gast und lerne die App kennen. PapierPilot bietet eine helle und eine dunkle Darstellung.</p></article>
+</div><div class="container"><p class="technical-note">PapierPilot unterstützt mit KI und ersetzt keine rechtliche, steuerliche oder behördliche Beratung. Prüfe wichtige Angaben und Fristen selbst. Für die KI-Funktionen ist eine Internetverbindung erforderlich.</p><a class="btn btn-primary" href="/#preise">Kostenlos &amp; Premium vergleichen ↗</a></div></section>
 </main>
-
 <footer class="site-footer">
   <div class="container">
     <div class="footer-inner">
-      <div>
-        <div class="footer-brand">
-          <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect width="48" height="48" rx="14" fill="#0E8F8B"/><path d="M12 25L36 13L27 36L22 26L12 25Z" fill="#ffffff"/></svg>
-          PapierPilot
-        </div>
-        <p class="footer-tagline">Bürokratie einfach verstehen.</p>
+      <div><a class="logo footer-logo" href="/"><svg class="logo-mark" viewBox="0 0 48 48" fill="none" aria-hidden="true"><path d="M7 23.5 40 8 28 41l-7-13-14-4.5Z" fill="currentColor"/><path d="m21 28 19-20" stroke="#FCFBF7" stroke-width="2"/></svg>PapierPilot</a><p class="footer-tagline">Weniger Papierkram. Mehr Überblick.</p></div>
+      <div class="footer-link-groups">
+        <div><span class="footer-group-title">Entdecken</span><a href="/funktionen.html">Alle Funktionen</a><a href="/zusammenarbeit.html">Zusammenarbeit</a><a href="/ueber-uns.html">Über uns</a><a href="/support.html">Support</a></div>
+        <div><span class="footer-group-title">Gut zu wissen</span><a href="/datenschutz.html">Datenschutz</a><a href="/impressum.html">Impressum</a><a href="/nutzungsbedingungen.html">Nutzungsbedingungen</a><a href="/account-loeschen.html">Account löschen</a></div>
       </div>
-      <ul class="footer-links">
-        <li><a href="/datenschutz">Datenschutz</a></li>
-        <li><a href="/impressum">Impressum</a></li>
-        <li><a href="/nutzungsbedingungen">Nutzungsbedingungen</a></li>
-        <li><a href="/support">Support</a></li>
-        <li><a href="/account-loeschen">Account löschen</a></li>
-      </ul>
     </div>
-    <div class="footer-bottom">
-      <span>© 2026 PapierPilot GbR</span>
-      <span>Kontakt: <a href="mailto:support@papierpilot.app">support@papierpilot.app</a></span>
-    </div>
+    <div class="footer-bottom"><span>© 2026 PapierPilot</span><a href="mailto:support@papierpilot.app">support@papierpilot.app <span aria-hidden="true">↗</span></a></div>
   </div>
 </footer>
-
-<script src="script.js"></script>
-</body>
-</html>
+</body></html>
